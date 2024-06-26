@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Item</title>
+    <link rel="stylesheet" href="sell your item.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sell Your Item</h1>
+        <form>
+            <label for="photo">Photo of Item:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" multiple required>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" required>
+            
+            <label for="buying-date">When was it bought:</label>
+            <input type="date" id="buying-date" name="buying-date" required>
+            
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+            
+            <label for="seller-name">Seller's Name:</label>
+            <input type="text" id="seller-name" name="seller-name" required>
+            
+            <label for="phone-number">Contact Number:</label>
+            <input type="tel" id="phone-number" name="phone-number" required>
+            
+            <label for="location">Seller's Location:</label>
+            <input type="text" id="location" name="location" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+    
+       
+    
